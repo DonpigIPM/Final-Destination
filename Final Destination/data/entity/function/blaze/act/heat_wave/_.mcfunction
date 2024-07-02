@@ -6,4 +6,4 @@
     particle flame ~ ~1.0 ~ 2 0 2 0 40 force
     particle minecraft:ash ~ ~1.0 ~ 2 0 2 1 80 force
     playsound entity.blaze.shoot hostile @a ~ ~ ~ 1 0.7 1
-    tag @s remove FD.Attacke
+    tag @s remove FD.Attacker
