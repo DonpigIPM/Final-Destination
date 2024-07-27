@@ -1,0 +1,33 @@
+{
+    "description": "Unbeatable",
+    "supported_items": "#minecraft:enchantable/armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 2147483647,
+        "per_level_above_first": 2147483647
+    },
+    "max_cost": {
+        "base": 2147483647,
+        "per_level_above_first": 2147483647
+    },
+    "anvil_cost": 2147483647,
+    "slots": [
+        "armor"
+    ],
+    "effects": {
+        "minecraft:damage_immunity": [
+            {
+                "effect": {}
+            }
+        ],
+        "minecraft:item_damage": [
+            {
+                "effect": {
+                    "type": "minecraft:set",
+                    "value": 0
+                }
+            }
+        ]
+    }
+}

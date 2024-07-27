@@ -1,0 +1,5 @@
+#> player:status/_
+
+# display
+    execute if score @s Health <= @s MaxHealth run title @s actionbar [{"color":"red","text":"体力❤ "},{"score":{"name":"@s","objective":"Health"}},{"text":"/"},{"score":{"name":"@s","objective":"MaxHealth"}},{"text":"     "},{"color":"aqua","text":"マナ✎ "},{"color":"aqua","score":{"name":"@s","objective":"Mana"}},{"color":"aqua","text":"/"},{"color":"aqua","score":{"name":"@s","objective":"MaxMana"}}]
+    execute if score @s Health > @s MaxHealth run title @s actionbar [{"color":"gold","text":"体力❤ "},{"score":{"name":"@s","objective":"Health"}},{"text":"/"},{"score":{"name":"@s","objective":"MaxHealth"}},{"text":"     "},{"color":"aqua","text":"マナ✎ "},{"color":"aqua","score":{"name":"@s","objective":"Mana"}},{"color":"aqua","text":"/"},{"color":"aqua","score":{"name":"@s","objective":"MaxMana"}}]

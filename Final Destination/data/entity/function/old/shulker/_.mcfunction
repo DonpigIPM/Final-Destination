@@ -1,0 +1,2 @@
+#> entity:early/shulker/_
+

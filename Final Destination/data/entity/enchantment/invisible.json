@@ -1,0 +1,40 @@
+{
+    "description": "Invisible",
+    "supported_items": "#minecraft:enchantable/armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+        "armor"
+    ],
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:apply_mob_effect",
+                    "to_apply": "minecraft:invisibility",
+                    "min_duration": 0.1,
+                    "max_duration": 0.1,
+                    "min_amplifier": 0,
+                    "max_amplifier": 0
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "nbt": "{Tags:[\"Invisible\"]}"
+                    }
+                }
+            }
+        ],
+        "minecraft:prevent_equipment_drop": {}
+    }
+}
